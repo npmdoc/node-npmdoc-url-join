@@ -1,9 +1,14 @@
-# api documentation for  [url-join (v1.1.0)](https://github.com/jfromaniello/url-join#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-url-join.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-url-join) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-url-join.svg)](https://travis-ci.org/npmdoc/node-npmdoc-url-join)
+# npmdoc-url-join
+
+#### basic api documentation for  [url-join (v2.0.1)](https://github.com/jfromaniello/url-join#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-url-join.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-url-join) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-url-join.svg)](https://travis-ci.org/npmdoc/node-npmdoc-url-join)
+
 #### Join urls and normalize as in path.join.
 
-[![NPM](https://nodei.co/npm/url-join.png?downloads=true)](https://www.npmjs.com/package/url-join)
+[![NPM](https://nodei.co/npm/url-join.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/url-join)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-url-join/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-url-join%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-url-join/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-url-join/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-url-join/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-url-join/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-url-join/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-url-join/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "José F. Romaniello",
-        "email": "jfromaniello@gmail.com",
         "url": "http://joseoncode.com"
     },
     "bugs": {
@@ -27,15 +31,15 @@
     "dependencies": {},
     "description": "Join urls and normalize as in path.join.",
     "devDependencies": {
-        "mocha": "~1.8.1",
+        "mocha": "^3.2.0",
         "should": "~1.2.1"
     },
     "directories": {},
     "dist": {
-        "shasum": "741c6c2f4596c4830d6718460920d0c92202dc78",
-        "tarball": "https://registry.npmjs.org/url-join/-/url-join-1.1.0.tgz"
+        "shasum": "04b446fcd359a2fa42cc9b6962b219b91ddfe1a8",
+        "tarball": "https://registry.npmjs.org/url-join/-/url-join-2.0.1.tgz"
     },
-    "gitHead": "3144ba1acbfcee988d6abb3b2be1df532f0e151c",
+    "gitHead": "6f5adc60206a276604a7265637c70d440061761e",
     "homepage": "https://github.com/jfromaniello/url-join#readme",
     "keywords": [
         "url",
@@ -45,13 +49,11 @@
     "main": "lib/url-join.js",
     "maintainers": [
         {
-            "name": "jfromaniello",
-            "email": "jfromaniello@gmail.com"
+            "name": "jfromaniello"
         }
     ],
     "name": "url-join",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/jfromaniello/url-join.git"
@@ -59,19 +61,10 @@
     "scripts": {
         "test": "mocha --require should"
     },
-    "version": "1.1.0"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module url-join](#apidoc.module.url-join)
-
-
-
-# <a name="apidoc.module.url-join"></a>[module url-join](#apidoc.module.url-join)
 
 
 
